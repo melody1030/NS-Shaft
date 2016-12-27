@@ -9,7 +9,7 @@ var lastTime = 0;
 var platforms = [];
 
 function preload () {
-    game.load.baseURL = '/Image';
+    game.load.baseURL = 'http://s.ntustcoding.club/ns-shaft-workshop/';
     game.load.crossOrigin = 'anonymous';
     game.load.spritesheet('player', 'player.png', 32, 32); // 主角
     game.load.image('wall', 'wall.png'); // 牆壁
