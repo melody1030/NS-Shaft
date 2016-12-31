@@ -9,17 +9,17 @@ var lastTime = 0;
 var platforms = [];
 
 function preload () {
-    game.load.baseURL = '/Image';
+    game.load.baseURL = 'http://s.ntustcoding.club/ns-shaft-workshop/';
     game.load.crossOrigin = 'anonymous';
-    game.load.spritesheet('player', '/player.png', 32, 32); // 主角
-    game.load.image('wall', '/wall.png'); // 牆壁
-    game.load.image('ceiling', '/ceiling.png'); // 天花板的刺 
-    game.load.image('normal', '/normal.png'); // 藍色平台
-    game.load.image('nails', '/nails.png'); // 帶刺平台
-    game.load.spritesheet('conveyorRight', '/conveyor_right.png', 96, 16); // 向右捲動的平台
-    game.load.spritesheet('conveyorLeft', '/conveyor_left.png', 96, 16); // 向左捲動的平台
-    game.load.spritesheet('trampoline', '/trampoline.png', 96, 22); // 彈簧墊
-    game.load.spritesheet('fake', '/fake.png', 96, 36); // 翻轉的平台
+    game.load.spritesheet('player', 'player.png', 32, 32); // 主角
+    game.load.image('wall', 'wall.png'); // 牆壁
+    game.load.image('ceiling', 'ceiling.png'); // 天花板的刺 
+    game.load.image('normal', 'normal.png'); // 藍色平台
+    game.load.image('nails', 'nails.png'); // 帶刺平台
+    game.load.spritesheet('conveyorRight', 'conveyor_right.png', 96, 16); // 向右捲動的平台
+    game.load.spritesheet('conveyorLeft', 'conveyor_left.png', 96, 16); // 向左捲動的平台
+    game.load.spritesheet('trampoline', 'trampoline.png', 96, 22); // 彈簧墊
+    game.load.spritesheet('fake', 'fake.png', 96, 36); // 翻轉的平台
 }
 
 
